@@ -49,7 +49,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '5557012576:AAFzIKDUqFbtuaVF5O64ebSo1X4iNLZ
 # Bot settings
 CACHE_TIME = 300
 USE_CAPTION_FILTER = False
-NOR_IMG = environ.get('NOR_IMG', "https://telegra.ph/file/a335b5062945298b2afd2.jpg")
+NOR_IMG = environ.get('NOR_IMG', "https://telegra.ph/file/62cec29b0669206b7943a.jpg")
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/f83017d890b1b692a673a.jpg https://te.legra.ph/file/72602fb1f87727dde571b.jpg https://te.legra.ph/file/e37fbea2190470aaf4bc1.jpg https://te.legra.ph/file/9f4f70db519f1bdbcb27b.jpg https://te.legra.ph/file/72d74f632a2317f21136b.jpg https://te.legra.ph/file/018e5893fdaabe0f1cef4.jpg')).split()
 SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/314928baed9a9c277072f.jpg")
 
@@ -74,8 +74,8 @@ TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 COMMAND_HAND_LER = ("/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://hyonjoo:hyonjoo@cluster0.lv6txrr.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "hyonjoo")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Devil:Devil@cluster0.bxp3mc5.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Devil")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 MONGO_URL = os.environ.get('MONGO_URL', "mongodb+srv://hyonjoo:hyonjoo@cluster0.lv6txrr.mongodb.net/?retryWrites=true&w=majority")
 
