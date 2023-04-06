@@ -74,8 +74,8 @@ TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 COMMAND_HAND_LER = ("/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://cbautobot:cbautobot@cluster0.htipep9.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "cbautobot")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://cbautobot2:cbautobot2@cluster0.m0lmkto.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "cbautobot2")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 MONGO_URL = os.environ.get('MONGO_URL', "mongodb+srv://hyonjoo:hyonjoo@cluster0.lv6txrr.mongodb.net/?retryWrites=true&w=majority")
 
